@@ -1,0 +1,85 @@
+.elements {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 880px;
+}
+
+.element {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(282px, 1fr));
+  gap: 20px 17px;
+  list-style: none;
+}
+
+@media screen and (max-width: 890px) {
+  .element {
+    grid-template-columns: repeat(2, minmax(282px, 1fr));
+    align-items: center;
+    justify-content: center;
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .element {
+    grid-template-columns: repeat(1, minmax(282px, 1fr));
+    align-items: center;
+    justify-content: center;
+    max-width: 282px;
+    margin: 0 auto;
+    gap: 20px 0;
+  }
+}
+
+.element__card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  max-width: 282px;
+}
+
+.element__images {
+  max-width: 282px;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.element__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 282px;
+  height: 79px;
+  margin: 0 20px 0 21px;
+  background-color: white;
+  margin: 0;
+  padding: 0 15px 0 21px;
+}
+
+.element__text {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.element__like {
+  background-image: url(../../images/element__like.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 19px;
+  background-color: transparent;
+  border: none;
+  transition: opacity 0.4s;
+  padding: 0;
+}
+
+.element__like:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
