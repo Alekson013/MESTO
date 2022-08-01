@@ -1,9 +1,38 @@
 .header {
   width: 100%;
   max-width: 880px;
-  padding-top: 45px;
+  padding: 0 0 0 0;
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
   display: flex;
-  margin: 0 auto;
+  margin: 45px auto 0;
   flex-direction: column;
+}
+
+
+@media screen and (max-width: 890px) {
+  .header {
+    margin: 28px auto 0px;
+    max-width: 590px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .header {
+    margin: 0 auto 0;
+    max-width: 100%;
+  }
+}
+
+.header__line {
+  max-width: 880px;
+  opacity: 0.7;
+  border: 1px solid #545454;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 587px) {
+  .header__line {
+    max-width: 100%;
+  }
 }
