@@ -10,4 +10,10 @@
   background: #000000;
   border-radius: 2px;
   color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup__save:hover {
+  opacity: 0.8;
 }

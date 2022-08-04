@@ -10,10 +10,11 @@
   background-repeat: no-repeat;
   background-size: 22px 22px;
   background-position: center;
+  transition: opacity 0.4s ease-in;
 }
 
 .profile__add-button:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 
