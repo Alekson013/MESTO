@@ -20,14 +20,22 @@
         />
         <div class="profile__info">
           <h1 class="profile__title">Жак-Ив Кусто</h1>
-          <button type="button" class="profile__edit-button"></button>
+          <button
+            type="button"
+            class="profile__edit-button"
+            aria-label="редактировать профиль"
+          ></button>
           <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <button type="button" class="profile__add-button"></button>
+        <button
+          type="button"
+          class="profile__add-button"
+          aria-label="добавить"
+        ></button>
       </section>
       <section class="elements">
-        <ul class="element">
-          <li class="element__card">
+        <ul class="elements__list">
+          <li class="element">
             <img
               src="./images/element__karachaevsk.png"
               alt="Карачаевск"
@@ -42,7 +50,7 @@
               ></button>
             </div>
           </li>
-          <li class="element__card">
+          <li class="element">
             <img
               src="./images/element__elbrus.png"
               alt="Гора Эльбрус"
@@ -57,7 +65,7 @@
               ></button>
             </div>
           </li>
-          <li class="element__card">
+          <li class="element">
             <img
               src="./images/element__dombay.png"
               alt="Домбай"
@@ -72,7 +80,7 @@
               ></button>
             </div>
           </li>
-          <li class="element__card">
+          <li class="element">
             <img
               src="./images/element__elbrus.png"
               alt="Гора Эльбрус"
@@ -87,7 +95,7 @@
               ></button>
             </div>
           </li>
-          <li class="element__card">
+          <li class="element">
             <img
               src="./images/element__dombay.png"
               alt="Домбай"
@@ -102,7 +110,7 @@
               ></button>
             </div>
           </li>
-          <li class="element__card">
+          <li class="element">
             <img
               src="./images/element__karachaevsk.png"
               alt="Карачаево-Черкессия"
@@ -125,18 +133,22 @@
     </footer>
     <div class="popup">
       <div class="popup__container">
-        <button class="popup__close" type="button"></button>
+        <button
+          class="popup__close"
+          type="button"
+          aria-label="закрыть"
+        ></button>
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form">
           <input
             type="text"
-            class="popup__input popup__input_name"
+            class="popup__input popup__input_type_name"
             name="user"
             placeholder="Жак-Ив Кусто"
           />
           <input
             type="text"
-            class="popup__input popup__input_work"
+            class="popup__input popup__input_type_work"
             name="work"
             placeholder="Исследователь океана"
           />
