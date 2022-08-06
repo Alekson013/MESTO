@@ -1,5 +1,5 @@
 .popup__close {
-  background: url(../../../images/close__icon.png) no-repeat center;
+  background: url(../../../images/Close__Icon.svg) no-repeat center;
   width: 32px;
   height: 32px;
   background-size: 32px;
@@ -25,7 +25,7 @@
     width: 20px;
     height: 20px;
     background-size: 20px;
-    right: -25px;
-    top: -25px;
+    right: 0px;
+    top: -36px;
   }
 }

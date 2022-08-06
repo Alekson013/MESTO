@@ -2,28 +2,22 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(3, minmax(282px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
   gap: 20px 17px;
   list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 890px) {
   .element {
-    grid-template-columns: repeat(2, minmax(282px, 1fr));
-    align-items: center;
-    justify-content: center;
     max-width: 590px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 587px) {
   .element {
-    grid-template-columns: repeat(1, minmax(282px, 1fr));
-    align-items: center;
-    justify-content: center;
     max-width: 282px;
-    margin: 0 auto;
     gap: 20px 0;
   }
 }

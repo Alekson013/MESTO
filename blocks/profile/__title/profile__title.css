@@ -6,10 +6,15 @@
   margin: 0;
   font-family: "Inter", "Arial", sans-serif;
   grid-area: profile__title;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 294px;
 }
 
 @media screen and (max-width: 890px) {
   .profile__title {
-    font-size: 32px;
+    font-size: 27px;
+    line-height: 33px;
   }
 }

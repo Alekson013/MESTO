@@ -4,13 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mesto</title>
+    <title>Путешествия по РФ</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header__logo.svg" alt="Логотип" />
-      <hr class="header__line" />
     </header>
     <main class="content">
       <section class="profile">
@@ -31,24 +30,28 @@
           <li class="element__card">
             <img
               src="./images/element__karachaevsk.png"
-              alt=""
+              alt="Карачаевск"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Карачаевск</h2>
-              <button class="element__like"></button>
+              <button
+                class="element__like"
+                type="submit"
+                aria-label="лайк"
+              ></button>
             </div>
           </li>
           <li class="element__card">
             <img
               src="./images/element__elbrus.png"
-              alt=""
+              alt="Гора Эльбрус"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Гора Эльбрус</h2>
               <button
-                type="button"
+                type="submit"
                 aria-label="лайк"
                 class="element__like"
               ></button>
@@ -57,45 +60,61 @@
           <li class="element__card">
             <img
               src="./images/element__dombay.png"
-              alt=""
+              alt="Домбай"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Домбай</h2>
-              <button class="element__like"></button>
+              <button
+                class="element__like"
+                type="submit"
+                aria-label="лайк"
+              ></button>
             </div>
           </li>
           <li class="element__card">
             <img
               src="./images/element__elbrus.png"
-              alt=""
+              alt="Гора Эльбрус"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Гора Эльбрус</h2>
-              <button class="element__like"></button>
+              <button
+                class="element__like"
+                type="submit"
+                aria-label="лайк"
+              ></button>
             </div>
           </li>
           <li class="element__card">
             <img
               src="./images/element__dombay.png"
-              alt=""
+              alt="Домбай"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Домбай</h2>
-              <button class="element__like"></button>
+              <button
+                class="element__like"
+                type="submit"
+                aria-label="лайк"
+              ></button>
             </div>
           </li>
           <li class="element__card">
             <img
               src="./images/element__karachaevsk.png"
-              alt=""
+              alt="Карачаево-Черкессия"
               class="element__images"
             />
             <div class="element__button">
               <h2 class="element__text">Карачаево-Черкессия</h2>
-              <button class="element__like"></button>
+              <button
+                class="element__like"
+                type="submit"
+                aria-label="лайк"
+              ></button>
             </div>
           </li>
         </ul>
@@ -104,24 +123,24 @@
     <footer class="footer">
       <p class="footer__copyright">&copy; 2022 Alekson Takhmazyan</p>
     </footer>
-    <div class="popup popup_opened">
+    <div class="popup">
       <div class="popup__container">
         <button class="popup__close" type="button"></button>
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form">
           <input
             type="text"
-            class="popap__input popup__input_name"
+            class="popup__input popup__input_name"
             name="user"
             placeholder="Жак-Ив Кусто"
           />
           <input
             type="text"
-            class="popap__input popup__input_work"
+            class="popup__input popup__input_work"
             name="work"
             placeholder="Исследователь океана"
           />
-          <button class="popup__save" type="button">Сохранить</button>
+          <button class="popup__save" type="submit">Сохранить</button>
         </form>
       </div>
     </div>
