@@ -6,6 +6,16 @@
   line-height: 22px;
   font-family: "Inter", "Arial", sans-serif;
   grid-area: profile__subtitle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 294px;
+}
+
+@media screen and (max-width: 890px) {
+  .profile__subtitle {
+    max-width: 220px;
+  }
 }
 
 @media screen and (max-width: 587px) {
@@ -13,5 +23,11 @@
     text-align: center;
     font-size: 14px;
     line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .profile__subtitle {
+    margin-left: 14px;
   }
 }
