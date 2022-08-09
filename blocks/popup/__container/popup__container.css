@@ -8,10 +8,12 @@
   border-radius: 10px;
   align-items: flex-start;
   justify-content: center;
+  max-height: 330px;
 }
 
 @media screen and (max-width: 587px) {
   .popup__container {
     width: 282px;
+    min-height: 322px;
   }
 }

@@ -5,19 +5,13 @@
   line-height: 29px;
   font-family: "Inter", "Arial", sans-serif;
   padding: 0;
-  margin: 34px auto 0;
+  margin: 41px 0 43px 38px;
 }
 
 @media screen and (max-width: 587px) {
   .popup__title {
     font-size: 18px;
     line-height: 22px;
-    margin: 25 auto 0;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .popup__title {
-    margin: 25px 0 0px 21px;
+    margin: 3px 0 75px 21px;
   }
 }

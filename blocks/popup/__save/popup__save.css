@@ -4,7 +4,7 @@
   line-height: 22px;
   text-align: center;
   font-family: "Inter", "Arial", sans-serif;
-  margin: 48px 0 37px 0;
+  margin: 44px 0 37px 0;
   padding: 0;
   background: #000000;
   border-radius: 2px;
@@ -22,8 +22,8 @@
 @media screen and (max-width: 320px) {
   .popup__save {
     margin: 45px 0 0 0;
-    max-height: 48px;
     font-size: 14px;
     line-height: 17px;
+    min-height: 46px;
   }
 }
